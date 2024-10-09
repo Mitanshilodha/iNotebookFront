@@ -1,0 +1,39 @@
+/* Alert.css */
+
+.alert-container {
+    position: fixed;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 9999;
+    width: 80%;
+    max-width: 400px;
+  }
+  
+  .alert {
+    padding: 15px;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  .alert-success {
+    background-color: #d4edda;
+    color: #155724;
+  }
+  
+  .alert-danger {
+    background-color: #f8d7da;
+    color: #721c24;
+  }
+  
+  .alert-dismissible {
+    position: relative;
+  }
+  
+  .close {
+    position: absolute;
+    top: 0;
+    right: 10px;
+    cursor: pointer;
+  }
+  

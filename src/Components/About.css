@@ -1,0 +1,36 @@
+/* About.css */
+
+.about-container {
+    max-width: 600px;
+    max-height: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a subtle shadow effect */
+  }
+  
+  .about-title {
+    color: #131243;
+    font-size: 42px;
+    font-weight: bold; /* Make the title bold */
+    margin-bottom: 20px; /* Increase the margin for better spacing */
+    text-align: center; /* Center align the title */
+  }
+  
+  .about-content {
+    color: #1c1ca4;
+    font-size: 20px;
+    line-height: 1.8; /* Increase line height for better readability */
+    text-align: justify; /* Justify the content for better alignment */
+  }
+  
+  /* Add media query for responsiveness */
+  @media (max-width: 768px) {
+    .about-container {
+      max-width: 90%;
+    }
+  }
+  
+  

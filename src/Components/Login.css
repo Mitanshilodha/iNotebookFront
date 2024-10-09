@@ -1,0 +1,79 @@
+/* Login.css */
+body {
+    background-color: #f8f8f807; /* Set a light background color for the entire page */
+  }
+  
+  .login-container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #fff; /* Use a white background for the login container */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .login-container h2 {
+    font-size: 28px;
+    font-weight: bold;
+    color: #333;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .login-container .form-label {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .login-container .form-control {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    padding: 12px;
+    margin-bottom: 20px;
+  }
+  
+  .login-container .form-control:focus {
+    outline: none;
+    border-color: #007bff; /* Add a blue border when the input is focused */
+    box-shadow: 0 0 5px #007bff; /* Add a subtle shadow when the input is focused */
+  }
+  
+  .login-container .btn-primary {
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 12px;
+    transition: background-color 0.3s ease; /* Add a smooth transition for the button background */
+  }
+  
+  .login-container .btn-primary:hover {
+    background-color: #0056b3; /* Darken the button background on hover */
+  }
+  
+  .login-container .btn-primary:active {
+    background-color: #003d80; /* Further darken the button background when active */
+  }
+  
+  .login-container .btn-primary:focus {
+    outline: none; /* Remove focus outline on button click */
+  }
+  
+  .login-container .form-text {
+    font-size: 14px;
+    color: #777;
+  }
+  
+  .login-container .form-text a {
+    color: #007bff; /* Set link color to blue */
+    text-decoration: none;
+  }
+  
+  .login-container .form-text a:hover {
+    text-decoration: underline; /* Underline link on hover */
+  }
+  

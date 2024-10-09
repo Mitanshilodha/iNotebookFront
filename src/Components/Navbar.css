@@ -1,0 +1,41 @@
+/* Navbar.css */
+.navbar {
+    background-color: #343a40; /* Set the background color for the navigation bar */
+  }
+  
+  .navbar-brand {
+    font-size: 24px;
+    font-weight: bold;
+    color: #fff; /* Set the font color for the brand name */
+  }
+  
+  .nav-link {
+    font-size: 18px;
+    color: #fff; /* Set the font color for the navigation links */
+  }
+  
+  .nav-link.active {
+    font-weight: bold; /* Add bold font weight to the active link */
+  }
+  
+  .btn-primary {
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px 20px;
+  }
+  
+  .btn-primary:hover {
+    background-color: #0056b3; /* Darken the button background on hover */
+  }
+  
+  .btn-primary:active {
+    background-color: #003d80; /* Further darken the button background when active */
+  }
+  
+  .btn-primary:focus {
+    outline: none; /* Remove focus outline on button click */
+  }
+  
